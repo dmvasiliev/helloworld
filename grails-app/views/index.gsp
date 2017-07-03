@@ -83,9 +83,7 @@
 
 <body>
 
-${flash.message}
-
-<form action="hello/login" method="POST" id="loginForm" class="cssform" autocomplete="off">
+<form action="authenticate" method="POST" id="loginForm" class="cssform" autocomplete="off">
     <p>
         <label for="username"><g:message code='springSecurity.login.username.label'/>:</label>
         <input type="text" name="username" id="username"/>
